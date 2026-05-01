@@ -61,6 +61,14 @@ Checkpoint selection order in `Eval_mlp.sh`:
 
 ## Acknowledgements
 
+If you find our work useful in your projects or papers, please consider citing:
+@inproceedings{wang2026optimizing,
+title={Optimizing 3D Gaussian Splatting with Axis-Shared Rasterization and Order-independent Transmittance},
+author={Zhican Wang and Guanghui He and Dantong Liu and Lingjun Gao and Shell Xu Hu and Chen Zhang and Zhuoran Song and Nicholas Lane and Hongxiang Fan},
+booktitle={Proceedings of the 53rd Annual International Symposium on Computer Architecture (ISCA)},
+year={2026}
+}
+
 This work builds on the [gsplat library](https://github.com/nerfstudio-project/gsplat) developed by the Nerfstudio team.
 
 If you find gsplat useful in your projects or papers, please consider citing:

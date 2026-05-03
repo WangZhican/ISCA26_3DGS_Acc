@@ -14,8 +14,8 @@ There are two ways to set up the environment:
 Both setup methods require the repository files, so clone first:
 
 ```bash
-git clone --recurse-submodules <your-repo-url>
-cd neural_sorting
+git clone --recurse-submodules https://github.com/WangZhican/ISCA26_3DGS_Acc.git
+cd MLP-based_OIT
 ```
 
 ## Option 1: Docker Setup
@@ -39,8 +39,8 @@ Replace `/path/to/data` and `/path/to/results` with the actual directories on yo
 
 ```bash
 docker run --gpus 1 -it --rm \
-    -v /path/to/data:/workspace/neural_sorting/examples/data \
-    -v /path/to/results:/workspace/neural_sorting/examples/results \
+    -v /path/to/data:/workspace/MLP-based_OIT/examples/data \
+    -v /path/to/results:/workspace/MLP-based_OIT/examples/results \
     mlp-based-oit:cu118 bash
 ```
 
@@ -74,7 +74,7 @@ source ./setup.sh
 
 The script performs the following:
 - installs required system packages (uses sudo when available)
-- creates Conda environment neural_sorting (Python 3.10)
+- creates Conda environment mlp-based_oit (Python 3.10)
 - installs PyTorch (CUDA 11.8) and required Python packages
 - installs MLP-based OIT from source
 - installs examples requirements

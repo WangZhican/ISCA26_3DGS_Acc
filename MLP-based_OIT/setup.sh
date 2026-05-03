@@ -7,7 +7,7 @@ set -euo pipefail
 # If you run it with "bash ./setup.sh", installation still works,
 # but conda environment activation cannot persist in your current shell.
 
-METHOD_NAME="neural sorting"
+METHOD_NAME="MLP-based OIT"
 ENV_NAME="neural_sorting"
 PYTHON_VERSION="3.10"
 

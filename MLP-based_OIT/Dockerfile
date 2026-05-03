@@ -1,20 +1,20 @@
 # =============================================================================
-# Dockerfile for Neural Sorting
+# Dockerfile for MLP-based OIT
 # 
 # Build:
-#   docker build -t neural-sorting:cu118 .
+#   docker build -t mlp-based-oit:cu118 .
 #
 # Run (interactive, with GPU):
 #   docker run --gpus all -it --rm \
 #       -v /path/to/data:/workspace/neural_sorting/examples/data \
 #       -v /path/to/results:/workspace/neural_sorting/examples/results \
-#       neural-sorting:cu118 bash
+#       mlp-based-oit:cu118 bash
 #
 # Run evaluation directly:
 #   docker run --gpus all --rm \
 #       -v /path/to/data:/workspace/neural_sorting/examples/data \
 #       -v /path/to/results:/workspace/neural_sorting/examples/results \
-#       neural-sorting:cu118 \
+#       mlp-based-oit:cu118 \
 #       bash examples/benchmarks/Eval_mlp.sh
 # =============================================================================
 

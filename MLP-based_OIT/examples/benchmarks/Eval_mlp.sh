@@ -18,6 +18,7 @@ fi
 
 # Write current run outputs to a separate folder.
 RESULT_DIR="$EXAMPLES_DIR/results"
+# Internal type token used by the MLP-based OIT pipeline.
 TYPE="mlp-nonclone"
 SCENE_LIST="bicycle bonsai counter kitchen room"
 RENDER_TRAJ_PATH="ellipse"

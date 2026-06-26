@@ -1,6 +1,6 @@
 # Optimizing 3D Gaussian Splatting with Axis-Shared Rasterization and Order-independent Transmittance
 
-An architecture–algorithm co-design that accelerates 3D Gaussian Splatting through axis-shared rasterization, MLP-based order-independent transmittance, and a unified reconfigurable PE array, achieving 23.4–27.8× speedup and 28.8–51.4× energy savings over edge GPUs.
+An architecture–algorithm co-design that accelerates 3D Gaussian Splatting through axis-shared rasterization, MLP-based order-independent transmittance, and a unified reconfigurable PE array.
 
 ## Repository Structure
 
